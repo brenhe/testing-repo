@@ -1,0 +1,11 @@
+name: Mapping Upload
+
+on:
+	workflow_dispatch:
+
+jobs:
+	mapping-test:
+		runs-on: ubuntu-latest
+		steps:
+			- name: Upload Mapping
+				run: echo "Workflow dispatched"
